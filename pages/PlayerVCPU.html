@@ -11,6 +11,7 @@
 </head>
 
 <body>
+<!-- Nav start -->
     <nav class="navbar bg-body-tertiary navBack">
         <div class="container-fluid navText">
             <a class="navbar-brand" href="#">
@@ -21,9 +22,6 @@
             <a href="../index.html">
                 <button type="button" class="btn btn-dark">home</button>
             </a>
-
-
-
             <a href="https://youtu.be/_PUEoDYpUyQ?si=xtEHqPB_3BKfRga5" target="_blank">
                 <button type="button" class="btn btn-dark">
                     Click Here For Instructions
@@ -31,9 +29,11 @@
             </a>
         </div>
     </nav>
+<!-- Nav End -->
 
     <br />
 
+<!-- Player Card -->
     <div class="row align-items-center">
         <div class="col-4 d-flex justify-content-center">
             <div class="card" style="width: 18rem;">
@@ -44,27 +44,27 @@
                         <div class="row ">
                             <div class="col ">
                                 <button>
-                                    <img src="../assets/rock.jpg" alt="rock image" width="45" height="45" />
+                                    <img src="../assets/rock.jpg" alt="rock image" width="45" height="45" id="pRock"/>
                                 </button>
                             </div>
                             <div class="col">
                                 <button>
-                                    <img src="../assets/paper.jpeg" alt="paper image" width="45" height="45" />
+                                    <img src="../assets/paper.jpeg" alt="paper image" width="45" height="45" id="pPaper"/>
                                 </button>
                             </div>
                             <div class="col">
                                 <button>
-                                    <img src="../assets/scissorimage.jpg" alt="scissor image" width="45" height="45" />
+                                    <img src="../assets/scissorimage.jpg" alt="scissor image" width="45" id="pScissor" height="45" />
                                 </button>
                             </div>
                             <div class="col">
                                 <button>
-                                    <img src="../assets/lizard.avif" alt="lizard image" width="45" height="45" />
+                                    <img src="../assets/lizard.avif" alt="lizard image" width="45" id="pLizard" height="45" />
                                 </button>
                             </div>
                             <div class="col">
                                 <button>
-                                    <img src="../assets/spock.png" alt="spock image" width="45" height="45" />
+                                    <img src="../assets/spock.png" alt="spock image" width="45" height="45" id="pSpock"/>
                                 </button>
                             </div>
                         </div>
@@ -73,32 +73,33 @@
                 </div>
             </div>
         </div>
+<!-- Player Card -->
 
 
-
+<!-- Mode Select -->
         <div class="col-4 d-flex justify-content-center">
             <form class="borRadio">
                 <fieldset>
                     <legend>Please select your mode:</legend>
                     <div>
-                        <input type="radio" id="contactChoice1" name="contact" value="email" />
-                        <label for="contactChoice1">1 Round</label>
+                        <input type="radio" id="bo1" name="mode" value="1" />
+                        <label for="bo1">1 Round</label>
 
-                        <input type="radio" id="contactChoice2" name="contact" value="phone" />
-                        <label for="contactChoice2">3 out of 5</label>
+                        <input type="radio" id="bo5" name="mode" value="5" />
+                        <label for="bo5">3 out of 5</label>
 
-                        <input type="radio" id="contactChoice3" name="contact" value="mail" />
-                        <label for="contactChoice3">4 out of 7</label>
+                        <input type="radio" id="bo7" name="mode" value="7" />
+                        <label for="bo7">4 out of 7</label>
                     </div>
                     <div>
-                        <button type="submit">Submit</button>
+                        <button class="subBtn" id="subBtn" type="submit">Submit</button>
                     </div>
                 </fieldset>
             </form>
         </div>
+<!-- Mode Select -->
 
-
-
+<!-- CPU Card -->
         <div class="col-4 d-flex justify-content-center">
             <div class="card" style="width: 18rem;">
                 <img src="../assets/Shodan.gif" class="card-img-top" alt="Shodan gif">
@@ -138,7 +139,7 @@
             </div>
         </div>
     </div>
-
+<!-- CPU Card -->
 
 
 

@@ -1,5 +1,15 @@
 
+let pRock = document.getElementById("pRock");
+let pPaper = document.getElementById("pPaper");
+let pScissor = document.getElementById("pScissor");
+let pLizard = document.getElementById("pLizard");
+let pSpock = document.getElementById("pSpock");
 
+let bo1 = document.getElementById("bo1");
+let bo5 = document.getElementById("bo5");
+let bo7 = document.getElementById("bo7");
+
+let subBtn = document.getElementById("subBtn");
 
 
 
