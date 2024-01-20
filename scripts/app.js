@@ -24,8 +24,8 @@ let endResult = document.getElementById("endResult");
 let UserScore = 0;
 let ComputerScore = 0;
 
-CPUScore.textContent = `Computer Score: ${ComputerScore}`;
-userScore.textContent = `Your Score: ${UserScore}`;
+// CPUScore.textContent = `Computer Score: ${ComputerScore}`;
+// userScore.textContent = `Your Score: ${UserScore}`;
 
 const APICall = async () => {
     const promise = await fetch(
@@ -35,12 +35,12 @@ const APICall = async () => {
     console.log(result);
   };
   APICall();
-  userInput.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") {
-      PlayGame(userInput.value);
-      userInput.value = "";
-    }
-  });
+  // userInput.addEventListener("keydown", (e) => {
+  //   if (e.key === "Enter") {
+  //     PlayGame(userInput.value);
+  //     userInput.value = "";
+  //   }
+  // });
 
   const PlayGame = (x) => {
     x = x.toLowerCase();
