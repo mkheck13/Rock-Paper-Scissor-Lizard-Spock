@@ -1,3 +1,28 @@
+body{
+    background-image: url(../assets/Arena.jpg);
+    background-size: 100%;
+}
+.navBack{
+    background-image: url(../assets/backgroundwall.jpg);
+}
+
+
 .navText{
-    background-color: chartreuse;
+    background-color: transparent;
+}
+
+
+.penGram{
+    width: 43%;
+}
+.borRadio{
+    border-radius: 10px;;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+    background-color:tan;
+}
+
+.cardCon{
+    justify-content:center ;
 }
